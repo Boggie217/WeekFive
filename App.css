@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #61dafb;
+}
+
+.App {
+  text-align: center;
+}
+
+button {
+  width: 80px;
+  height: 30px;
+}
+
+.list {
+  background-color: #007bff;
+  margin-left: 30%;
+  width: 50%;
+  min-height: 400px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.input-container {
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px; /* Increase margin for readability */
+  color: white;
+  font-weight: bold;
+  font-size: 18px; /* Increase font size for readability */
+}
+
+input[type='checkbox'] {
+  margin-right: 10px; /* Add space between checkbox and text */
+}
+
+/* ... Existing styles ... */
+
+.list {
+  background-color: #007bff;
+  margin-left: 30%;
+  width: 50%;
+  min-height: 400px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+li {
+  margin-bottom: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 24px; /* Increased font size for the task */
+}
+
+/* Style for Complete/Needs Research buttons */
+div.list button {
+  background-color: #0056b3; /* Darker blue background color */
+  color: white; /* White text color */
+  border: none;
+  padding: 10px 20px;
+  margin-right: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  height: 80px;
+  margin: 10px;
+}
+
+/* ... Existing styles ... */
+
+.App-header p {
+  font-size: 50px; /* Increased font size */
+  color: white; /* White text color */
+  font-weight: bold; /* Bold font weight */
+  margin-left: 10%;
+}
